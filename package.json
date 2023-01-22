@@ -1,0 +1,27 @@
+{
+  "name": "my-axios",
+  "version": "1.0.0",
+  "description": "The goal of this project is to re-create axios, learn about npm package and XMLHttpRequest.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-Stanley/my-axios.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S-Stanley/my-axios/issues"
+  },
+  "homepage": "https://github.com/S-Stanley/my-axios#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

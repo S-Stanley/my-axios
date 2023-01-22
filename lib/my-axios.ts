@@ -1,4 +1,4 @@
 export {};
 const my_axios = 'test';
 
-module.exports = my_axios;
+export default my_axios;

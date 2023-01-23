@@ -1,3 +1,9 @@
 #!/bin/bash
 
-node dist/test/test.js
+tsc
+docker-compose up --build -d
+node dist/test/get.test.js
+
+exit_code=$?
+docker-compose down
+exit $exit_code
